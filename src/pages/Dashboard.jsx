@@ -5,7 +5,6 @@ function Dashboard() {
   return (
     <>
       <div className="cards">
-
         <div className="card">
           <h3>Total Orders</h3>
           <h1>120</h1>
