@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}  
+
+body{
+    background:#f5f6fa;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:240px;
+    background:#1f2937;
+    min-height:100vh;
+    padding:20px;
+}
+
+.sidebar h2{
+    color:#fff;
+    margin-bottom:30px;
+}
+
+.sidebar a{
+    display:block;
+    color:#ddd;
+    text-decoration:none;
+    padding:14px;
+    margin-bottom:8px;
+    border-radius:8px;
+}
+
+.sidebar a:hover{
+    background:#374151;
+}
+
+.sidebar .active{
+    background:#2563eb;
+    color:white;
+}
+
+.main{
+    flex:1;
+}
+
+.header{
+    height:70px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+    box-shadow:0 0 8px #ccc;
+}
+
+.admin{
+    background:#2563eb;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+.content{
+    padding:30px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:gray;
+    margin-bottom:15px;
+}
+
+table{
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th,
+table td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:left;
+}
+
+table th{
+    background:#2563eb;
+    color:white;
+}
+.form{
+background:white;
+padding:30px;
+width:450px;
+display:flex;
+flex-direction:column;
+gap:20px;
+border-radius:10px;
+}
+
+.form input{
+padding:12px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.form button{
+padding:12px;
+background:#ff5722;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+.btn{
+    background-color: #c11365;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.btn:hover {
+  background-color: #d81d1d;
+  transform: translateY(-2px);
+}
+.edit{
+    background-color: green;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.edit:hover {
+  background-color: rgb(10, 184, 10);
+  transform: translateY(-2px);
+}
+.add_item{
+    text-decoration: none;
+    font-size: 16px;
+}
+.add_item{
+     background-color: #152cab;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.add_item:hover {
+  background-color: #081351;
+  transform: translateY(-2px);
+}
+
+

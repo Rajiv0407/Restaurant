@@ -1,0 +1,45 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cancel {
+  background: gray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+h3{
+   text-align: center;
+}
+p{
+   text-align: center;
+}
