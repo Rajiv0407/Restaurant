@@ -14,7 +14,7 @@ body{
 }
 
 .sidebar{
-    width:240px;
+    width:245px;
     background:#1f2937;
     min-height:100vh;
     padding:20px;
@@ -119,6 +119,13 @@ padding:12px;
 border:1px solid #ccc;
 border-radius:5px;
 }
+.form label{
+      display: block;
+      margin-bottom: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+}
 
 .form button{
 padding:12px;
@@ -180,5 +187,12 @@ border-radius:5px;
   background-color: #081351;
   transform: translateY(-2px);
 }
+.gender{
+padding:12px;
+border:1px solid #ccc;
+border-radius:5px;
+width: 100%;
+}
 
+    
 

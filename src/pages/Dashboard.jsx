@@ -1,7 +1,5 @@
 function Dashboard() {
    
-    
-
   return (
     <>
       <div className="cards">

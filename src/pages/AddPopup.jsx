@@ -33,6 +33,7 @@ function AddPopup({ closePopup }) {
     <div className="popup-overlay">
       <div className="popup-box">
         <h2>Add Product</h2>
+        <form>
         <input type="text" onChange={(event)=>setItem({...item,name:event.target.value})}  name="name" placeholder="Product Name" />
         <br /><br />
         <input type="number" onChange={(event)=>setItem({...item,Price:event.target.value})}  name="Price" placeholder="Price" />
@@ -41,6 +42,7 @@ function AddPopup({ closePopup }) {
         <button className="close-btn" onClick={closePopup}>      
           Close    
         </button>
+        </form>
       </div>
     </div>
   );
