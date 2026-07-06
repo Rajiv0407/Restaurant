@@ -19,10 +19,10 @@ function App() {
           <Route path="products" element={<Products />} />
           <Route path="add_item" element={<AddPopup />} /> 
           <Route path="edit_item/:id" element={<EditItem />} />  
-          <Route path="orders" element={<Orders />} />
+          {/* <Route path="orders" element={<Orders />} /> */}
           <Route path="customers" element={<Customers />} />
-          <Route path="categories" element={<Categories />} />
-          <Route path="settings" element={<Settings />} />      
+          {/* <Route path="categories" element={<Categories />} /> */}
+          {/* <Route path="settings" element={<Settings />} />       */}
         </Route>
       </Routes>
     
